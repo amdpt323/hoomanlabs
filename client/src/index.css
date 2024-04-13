@@ -1,0 +1,8 @@
+.main-sbox {
+  height: 7vh;
+  width: 30vh;
+  background-color: lightblue;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
