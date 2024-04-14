@@ -23,9 +23,11 @@ const MainPage = () => {
         <Link to={'/getAddresses'}>
           <div className='main-sbox'>Get Addresses</div>
         </Link>
-        <div className='main-sbox' style={{ backgroundColor: 'lightcoral' }}>
-          Update Address
-        </div>
+        <Link to={'/updateAddress'}>
+          <div className='main-sbox' style={{ backgroundColor: 'lightcoral' }}>
+            Update Address
+          </div>
+        </Link>
       </div>
       <div
         style={{
@@ -34,12 +36,16 @@ const MainPage = () => {
           width: '90vw',
         }}
       >
-        <div className='main-sbox' style={{ backgroundColor: 'pink' }}>
-          Get Order List
-        </div>
-        <div className='main-sbox' style={{ backgroundColor: 'yellowgreen' }}>
-          Get Order Details
-        </div>
+        <Link to='/getOrderList'>
+          <div className='main-sbox' style={{ backgroundColor: 'pink' }}>
+            Get Order List
+          </div>
+        </Link>
+        <Link to={'/getOrderDetails'}>
+          <div className='main-sbox' style={{ backgroundColor: 'yellowgreen' }}>
+            Get Order Details
+          </div>
+        </Link>
         <div className='main-sbox' style={{ backgroundColor: 'red' }}>
           Cancel Order
         </div>

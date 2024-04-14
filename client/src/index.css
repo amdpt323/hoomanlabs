@@ -2,7 +2,31 @@
   height: 7vh;
   width: 30vh;
   background-color: lightblue;
-  display:flex;
-  justify-content:center;
-  align-items:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  display: inline-block;
+  width: 200px; 
+  text-align: right;
+  margin-right: 10px; 
+}
+
+input[type='text'],
+input[type='number'] {
+  width: 200px; 
+  padding: 5px;
+  margin-bottom: 10px; 
+}
+
+br {
+  clear: both;
+}
+
+.submit {
+  display: inline-block;
+  width: 200px; 
+  margin-top:20px;
 }

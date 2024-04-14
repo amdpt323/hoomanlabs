@@ -54,7 +54,7 @@ const getOrderList = async (req, res) => {
 
   // console.log(orderids)
 
-  res.json(orderids)
+  res.json({orderids})
 }
 
 const getOrderDetails = async (req, res) => {
@@ -92,7 +92,7 @@ const getOrderDetails = async (req, res) => {
     })),
   }))
 
-  res.json(orderDetails)
+  res.json({orderDetails})
 }
 
 const cancelOrder = async (req, res) => {
